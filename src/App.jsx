@@ -14,7 +14,7 @@ function App() {
   const [position, setPosition] = useState({})
 
 
-   const API_url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&lang=en&appid=91bbeabac42c4d05aef606380c3fd4d2`;
+   const API_url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&lang=en&appid=`;
 
   const searchLocation = async (event) =>{
     if (event.key === 'Enter') {
